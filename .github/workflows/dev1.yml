@@ -2,7 +2,7 @@ name: pipeline-de-deploy-DEV
 
 on:
   push:
-    branches: [main]
+    branches: [dev]
 
 jobs:
   deploy:
